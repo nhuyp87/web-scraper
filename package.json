@@ -1,0 +1,29 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhuyp87/web-scraper.git"
+  },
+  "author": "nhuyp87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhuyp87/web-scraper/issues"
+  },
+  "homepage": "https://github.com/nhuyp87/web-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2", 
+    "express": "^4.13.4",
+    "mongoose": "^4.4.6",
+    "morgan": "^1.7.0",
+    "request": "^2.69.0"
+
+  }
+}
